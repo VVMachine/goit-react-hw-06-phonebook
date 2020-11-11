@@ -77,7 +77,7 @@ class App extends Component {
 
           <h2 className="contactsTitle">Contacts</h2>
 
-          <Filter />
+          <Filter filterHandler={this.filterHandler} />
           <ContactList />
         </div>
 
